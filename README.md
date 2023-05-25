@@ -5,15 +5,13 @@
 
 ## General info
 For more info please visit the wiki section.
-This project is SpringBoot appplication.It contains a product model class, based on this we have a ProductController class, 
-ProductServiceClass with the business logic, and ExceptionHandler class. 
-In the wiki section you can find more about this project.
+This project is Selenium test app.
 	
 ## Technologies
 Project is created with:
-* Spring Boot:2.5.5.
-* JAVA version : 8
-* Database :MySQL / H2 database
+* Selenium: 3.14
+* JAVA version : 11
+* TestNG: 6.14
 	
 ## Setup
 To run this project:
