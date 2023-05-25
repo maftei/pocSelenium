@@ -9,8 +9,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class RegistrationConfirmationPage {
 
-    public  WebDriver driver;
-    public WebDriverWait wait;
+    private   WebDriver driver;
+    private WebDriverWait wait;
 
     @FindBy(partialLinkText = "sign-in")
     private WebElement signinLink;
