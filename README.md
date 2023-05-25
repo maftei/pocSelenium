@@ -4,8 +4,9 @@
 * [Setup](#setup)
 
 ## General info
-For more info please visit the wiki section.
-This project is Selenium test app.
+This project is Selenium test app. 
+The scope of this project is to integrate Selenium tests in Docker.
+Also to use docker grid and docker-compose, with jenkins in aws.
 	
 ## Technologies
 Project is created with:
