@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search-module">
+    <test name ="search-test">
+        <classes>
+            <class name ="searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
+</suite>

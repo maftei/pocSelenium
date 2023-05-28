@@ -12,20 +12,20 @@ import java.util.List;
 
 public class SearchPage {
 
-    private WebDriver driver;
-    private WebDriverWait wait;
+    protected WebDriver driver;
+    protected WebDriverWait wait;
 
     @FindBy (name = "q")
     private WebElement searchTxt;
 
-    @FindBy (id = "search_button_homepage")
+    @FindBy (id = "search_form_input_clear")
     private WebElement searchBtn;
 
-    @FindBy (linkText = "videos")
-    private WebElement videosLink;
+//    @FindBy (linkText = "videos")
+//    private WebElement videosLink;
 
-    @FindBy (className = "tile--vid")
-    private List<WebElement> allVideos;
+//    @FindBy (className = "tile--vid")
+//    private List<WebElement> allVideos;
 
     public SearchPage( WebDriver driver){
         this.driver= driver;
@@ -34,23 +34,24 @@ public class SearchPage {
     }
 
     public void goTo(){
-            this.driver.get("https://duckduckgo.com");
+            this.driver.get("https://duckduckgo.com/");
     }
 
     public void doSearch(String keyword){
         this.wait.until(ExpectedConditions.visibilityOf(this.searchTxt));
         this.searchTxt.sendKeys(keyword);
-        this.searchBtn.click();
+
+        //this.searchBtn.click();
     }
 
-    public void goToVideos(){
-        this.wait.until(ExpectedConditions.visibilityOf(this.videosLink));
-        this.videosLink.click();
-    }
+//    public void goToVideos(){
+//        this.wait.until(ExpectedConditions.visibilityOf(this.videosLink));
+//        this.videosLink.click();
+//    }
 
-    public void printResult(){
-        By by = By.className("tile--vid");
-        this.wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(by,0));
-        System.out.println(this.allVideos.size());
-    }
+//    public void printResult(){
+//        By by = By.className("tile--vid");
+//        this.wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(by,0));
+//        System.out.println(this.allVideos.size());
+//    }
 }
