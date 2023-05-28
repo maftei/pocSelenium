@@ -1,5 +1,6 @@
 package com.newtours.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,6 +14,11 @@ public class RegistartionPage {
     private WebDriver driver;
     private WebDriverWait wait;
 
+
+    @FindBy(name = "AcceptAll")
+    private WebElement accpetAll;
+
+
     @FindBy(name = "firstName")
     private WebElement firstNameTxt;
 
@@ -22,22 +28,22 @@ public class RegistartionPage {
     @FindBy(name = "email")
     private WebElement usernameTxt;
 
-    @FindBy(name = "passsword")
+    @FindBy(name = "password")
     private WebElement passwordTxt;
 
-    @FindBy(name = "confirmPasssword")
+    @FindBy(name = "confirmPassword")
     private WebElement confirmPasswordTxt;
 
-    @FindBy(name = "submit")
+    @FindBy(name = "register")
     private WebElement submitBtn;
 
     public RegistartionPage(WebDriver driver ) {
         this.driver  = driver;
-        this.wait =  new WebDriverWait(driver, 30);
+        this.wait =  new WebDriverWait(driver, 50);
         PageFactory.initElements(driver, this);
     }
     public void goTo(){
-        this.driver.get("https://demo.guru99.com/test/newtours/");
+        this.driver.get("https://vins-udemy.s3.amazonaws.com/docker/docker-book-flight.html#");
         this.wait.until(ExpectedConditions.visibilityOf(this.firstNameTxt));
     }
 
