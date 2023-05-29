@@ -12,14 +12,14 @@ import java.util.List;
 
 public class SearchPage {
 
-    protected WebDriver driver;
-    protected WebDriverWait wait;
+    public WebDriver driver;
+    public WebDriverWait wait;
 
     @FindBy (name = "q")
-    private WebElement searchTxt;
+    public WebElement searchTxt;
 
     @FindBy (id = "search_form_input_clear")
-    private WebElement searchBtn;
+    public WebElement searchBtn;
 
 //    @FindBy (linkText = "videos")
 //    private WebElement videosLink;
