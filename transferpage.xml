@@ -2,7 +2,7 @@
 <suite name="phptravels">
     <test name ="transferpage-test">
         <classes>
-            <class name ="phptravels.tests.TransferPageTest" />
+            <class name ="com.phptravels.tests.TransferPageTest" />
         </classes>
     </test>
 </suite>

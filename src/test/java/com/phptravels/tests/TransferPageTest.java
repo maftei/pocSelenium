@@ -1,4 +1,4 @@
-package phptravels.tests;
+package com.phptravels.tests;
 
 import com.newtours.pages.RegistartionPage;
 import com.newtours.pages.RegistrationConfirmationPage;
