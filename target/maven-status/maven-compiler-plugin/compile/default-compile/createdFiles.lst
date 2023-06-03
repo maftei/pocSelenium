@@ -1,0 +1,4 @@
+searchmodule\pages\SearchPage.class
+com\newtours\pages\RegistartionPage.class
+com\newtours\pages\RegistrationConfirmationPage.class
+com\phptravels\pages\TransferPage.class

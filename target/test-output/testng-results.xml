@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="book-flight-module" duration-ms="14311" started-at="2023-06-03T16:57:20Z" finished-at="2023-06-03T16:57:34Z">
+    <groups>
+    </groups>
+    <test name="book-flight-3" duration-ms="13407" started-at="2023-06-03T16:57:20Z" finished-at="2023-06-03T16:57:33Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@2752f6e2]" name="setupDriver" is-config="true" duration-ms="1463" started-at="2023-06-03T16:57:20Z" finished-at="2023-06-03T16:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="registrationPage()[pri:0, instance:com.newtours.tests.BookFlightTest@2752f6e2]" name="registrationPage" duration-ms="11557" started-at="2023-06-03T16:57:21Z" finished-at="2023-06-03T16:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method status="PASS" signature="registrationConfirmationPage()[pri:0, instance:com.newtours.tests.BookFlightTest@2752f6e2]" name="registrationConfirmationPage" duration-ms="131" started-at="2023-06-03T16:57:33Z" depends-on-methods="com.newtours.tests.BookFlightTest.registrationPage" finished-at="2023-06-03T16:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@2752f6e2]" name="quitDriver" is-config="true" duration-ms="236" started-at="2023-06-03T16:57:33Z" finished-at="2023-06-03T16:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- book-flight-3 -->
+    <test name="book-flight-2" duration-ms="14311" started-at="2023-06-03T16:57:20Z" finished-at="2023-06-03T16:57:34Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@23223dd8]" name="setupDriver" is-config="true" duration-ms="1555" started-at="2023-06-03T16:57:20Z" finished-at="2023-06-03T16:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="registrationPage()[pri:0, instance:com.newtours.tests.BookFlightTest@23223dd8]" name="registrationPage" duration-ms="11671" started-at="2023-06-03T16:57:21Z" finished-at="2023-06-03T16:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method status="PASS" signature="registrationConfirmationPage()[pri:0, instance:com.newtours.tests.BookFlightTest@23223dd8]" name="registrationConfirmationPage" duration-ms="200" started-at="2023-06-03T16:57:33Z" depends-on-methods="com.newtours.tests.BookFlightTest.registrationPage" finished-at="2023-06-03T16:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@23223dd8]" name="quitDriver" is-config="true" duration-ms="883" started-at="2023-06-03T16:57:33Z" finished-at="2023-06-03T16:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- book-flight-2 -->
+  </suite> <!-- book-flight-module -->
+</testng-results>

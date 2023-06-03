@@ -1,0 +1,4 @@
+searchmodule\tests\SearchTest.class
+com\phptravels\tests\TransferPageTest.class
+tests\BaseTest.class
+com\newtours\tests\BookFlightTest.class
