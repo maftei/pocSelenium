@@ -16,6 +16,7 @@ pipeline {
             sh "mvn clean install"
         }
     }
+    //
 //     stage("Sonar Analysis") {
 //         environment{
 //             scannerHome= tool "SonarQubeScanner"
