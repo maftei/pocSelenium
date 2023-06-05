@@ -38,7 +38,6 @@ public class TransferPage {
     }
 
     public void submit(){
-
         this.languageBtn.click();
         this.currencyBtn.click();
         this.accountBtn.click();
