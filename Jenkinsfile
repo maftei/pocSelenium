@@ -50,3 +50,5 @@ pipeline {
             sh 'docker push  andrei4455/selenium-docker-epay:selenium-docker-epay'
         }
     }
+   }
+  }
