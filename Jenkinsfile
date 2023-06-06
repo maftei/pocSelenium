@@ -13,10 +13,10 @@ pipeline {
 
     stage("Maven Build"){
         steps{
-            sh " mvn clean package  -DskipTests"
+            sh "mvn clean package  -DskipTests"
         }
     }
-    //
+
 //     stage("Sonar Analysis") {
 //         environment{
 //             scannerHome= tool "SonarQubeScanner"
