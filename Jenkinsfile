@@ -27,17 +27,6 @@ pipeline {
         }
     }
 
-    stage("Docker compose up"){
-            steps{
-            sh 'docker-compose up'
-            }
-        }
-
-    stage('Pausing') {
-                    steps {
-                        sleep(time: 1, unit: 'MINUTES')
-                    }
-                }
 
     stage("Docker Login"){
         steps{
@@ -52,9 +41,9 @@ pipeline {
             sh 'docker push  andrei4455/selenium-docker-epay:selenium-docker-epay'
         }
     }
-    stage('Create docker container') {
-                steps {
-                    sh 'docker run -d  -e HUB_HOST=52.205.57.116  -e MODULE=transferpage.xml selenium-docker-epay'
+    stage("Docker compose up"){
+                steps{
+                sh 'docker-compose up'
                 }
             }
    }
