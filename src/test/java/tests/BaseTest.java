@@ -40,6 +40,7 @@ public class BaseTest {
 
         String completeURL= "http://" + host + ":4444/wd/hub";
         this.driver =  new RemoteWebDriver(new URL(completeURL), dc);
+        //
 //
 //        System.setProperty("webdriver.chrome.driver",
 //                "C:\\Users\\razva\\Downloads\\chromedriver.exe");
