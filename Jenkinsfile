@@ -17,17 +17,6 @@ pipeline {
         }
     }
 
-//     stage("Sonar Analysis") {
-//         environment{
-//             scannerHome= tool "SonarQubeScanner"
-//         }
-//         steps{
-//             echo "Sonar analysis started"
-//             withSonarQubeEnv("SonarQubeJavaExpress"){
-//                 sh "${scannerHome}/bin/sonar-scanner"
-//             }
-//         }
-//     }
     stage("Create Docker Image"){
         steps{
 

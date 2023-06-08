@@ -18,7 +18,7 @@ public class BaseTest {
     @BeforeTest
     public void setupDriver() throws MalformedURLException {
 
-        String host ="34.226.247.158";
+        String host ="52.205.57.116";
         DesiredCapabilities dc = DesiredCapabilities.chrome();
 
         if(System.getProperty("BROWSER")!=null &&
