@@ -5,4 +5,9 @@
             <class name ="com.phptravels.tests.TransferPageTest" />
         </classes>
     </test>
+    <test name ="transferpage-test1">
+        <classes>
+            <class name ="com.phptravels.tests.TransferPageTest" />
+        </classes>
+    </test>
 </suite>
