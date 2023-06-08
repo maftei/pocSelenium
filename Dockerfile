@@ -10,4 +10,4 @@ ADD target/libs                          libs
 ADD search-module.xml   search-module.xml
 ADD transferpage.xml    transferpage.xml
 #
-ENTRYPOINT ["java", "-cp", "selenium-docker.jar:selenium-docker-tests.jar:libs/*  -DBROWSER=$BROWSER  -DHUB_HOST=$HUB_HOST org.testng.TestNG $MODULE"]
+ENTRYPOINT ["java", "-cp", "selenium-docker.jar:selenium-docker-tests.jar:libs/*", "-DBROWSER=$BROWSER  -DHUB_HOST=$HUB_HOST org.testng.TestNG $MODULE"]
