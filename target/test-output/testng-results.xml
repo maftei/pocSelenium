@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="search-module" duration-ms="6032" started-at="2023-06-06T08:32:20Z" finished-at="2023-06-06T08:32:26Z">
+  <suite name="search-module" duration-ms="2387" started-at="2023-06-08T15:36:34Z" finished-at="2023-06-08T15:36:36Z">
     <groups>
     </groups>
-    <test name="search-test" duration-ms="6032" started-at="2023-06-06T08:32:20Z" finished-at="2023-06-06T08:32:26Z">
+    <test name="search-test" duration-ms="2387" started-at="2023-06-08T15:36:34Z" finished-at="2023-06-08T15:36:36Z">
       <class name="searchmodule.tests.SearchTest">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:searchmodule.tests.SearchTest@23223dd8]" name="setupDriver" is-config="true" duration-ms="1744" started-at="2023-06-06T08:32:20Z" finished-at="2023-06-06T08:32:22Z">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:searchmodule.tests.SearchTest@23223dd8]" name="setupDriver" is-config="true" duration-ms="800" started-at="2023-06-08T15:36:34Z" finished-at="2023-06-08T15:36:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="search()[pri:0, instance:searchmodule.tests.SearchTest@23223dd8]" name="search" duration-ms="3321" started-at="2023-06-06T08:32:22Z" finished-at="2023-06-06T08:32:25Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:searchmodule.tests.SearchTest@23223dd8]" name="search" duration-ms="1447" started-at="2023-06-08T15:36:35Z" finished-at="2023-06-08T15:36:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:searchmodule.tests.SearchTest@23223dd8]" name="quitDriver" is-config="true" duration-ms="958" started-at="2023-06-06T08:32:25Z" finished-at="2023-06-06T08:32:26Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:searchmodule.tests.SearchTest@23223dd8]" name="quitDriver" is-config="true" duration-ms="130" started-at="2023-06-08T15:36:36Z" finished-at="2023-06-08T15:36:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

@@ -141,8 +141,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;search-module&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;search-test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;search-module&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;search-test&quot; parallel=&quot;tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;searchmodule.tests.SearchTest&quot;/&gt;
     &lt;/classes&gt;
@@ -188,12 +188,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'search')
 data.setCell(0, 2, 'searchmodule.tests.SearchTest')
-data.setCell(0, 3, 3321);
+data.setCell(0, 3, 1447);
 window.suiteTableData['search-module']= { tableData: data, tableDiv: 'times-div-search-module'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-search-module">
               </div> <!-- times-div-search-module -->
             </div> <!-- times-div -->
@@ -226,11 +226,11 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">search</span>
-                <span class="method-start">1751 ms</span>
+                <span class="method-start">808 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">5074 ms</span>
+                <span class="method-start">2256 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="phptravels">
+<suite name="phptravels" parallel="tests">
     <test name ="transferpage-test">
         <classes>
             <class name ="com.phptravels.tests.TransferPageTest" />
