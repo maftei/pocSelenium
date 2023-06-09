@@ -5,4 +5,9 @@
             <class name ="searchmodule.tests.SearchTest" />
         </classes>
     </test>
+    <test name ="search-test2">
+        <classes>
+            <class name ="searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
 </suite>
