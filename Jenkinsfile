@@ -43,7 +43,7 @@ pipeline {
     }
     stage("Docker compose up"){
                 steps{
-                sh 'docker-compose up'
+                sh 'docker-compose up -d  --scale chrome=2'
                 }
             }
    }
